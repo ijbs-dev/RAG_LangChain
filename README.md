@@ -1,4 +1,7 @@
----
+
+# Instruções para Executar o Projeto
+
+
 
 ### Passo 1: Instalar o Python 3 e pip (se ainda não estiver instalado)
 
@@ -124,4 +127,6 @@ Depois, você pode executar `python3 app.py` novamente para rodar o servidor Fla
 6. Executar o projeto com `python3 app.py`.
 7. Desativar o ambiente virtual ao finalizar (opcional).
 8. Reativar o ambiente virtual no futuro antes de rodar o projeto novamente.
+```
 
+Este formato está adequado para ser utilizado em um arquivo `README.md` do GitHub. As instruções são claras e organizadas, facilitando a compreensão e execução do projeto.
