@@ -8,7 +8,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_openai.embeddings import OpenAIEmbeddings
 from langchain_openai.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
-from langchain.text_splitter import RecursiveCharacterTextSplitter  # Importando da versão principal do LangChain
+from langchain.text_splitter import RecursiveCharacterTextSplitter  
 from langchain.schema import Document
 from typing import List, Optional
 
@@ -24,7 +24,7 @@ if not openai_api_key:
     raise ValueError("A chave de API da OpenAI não foi encontrada. Defina a variável de ambiente `OPENAI_API_KEY`.")
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Necessário para sessões no Flask
+app.secret_key = 'your_secret_key'  
 
 # Configurando o logging para monitoramento detalhado
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
